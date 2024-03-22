@@ -1,0 +1,64 @@
+[
+    {
+      "gameName": "COD",
+      "image": "assets/cod.png",
+      "tags": ["Action", "Adventure", "ps5"],
+      "type": "xBox"
+    },
+    {
+      "gameName": "Fifa",
+      "image": "assets/fifa.png",
+      "tags": ["Strategy", "ps5"],
+      "type": "xBox"
+    },
+    {
+      "gameName": "GOFTG",
+      "image": "assets/goftg.png",
+      "tags": ["Puzzle", "ps5"],
+      "type": "ps5"
+    },
+    {
+      "gameName": "Alan Wakar",
+      "image": "assets/alanawake1.png",
+      "tags": ["Puzzle", "ps5"],
+      "type": "ps4"
+    },
+    {
+      "gameName": "Alan Wakar",
+      "image": "assets/alanawake1.png",
+      "tags": ["Puzzle", "ps5"],
+      "type": "ps5"
+    },
+    {
+      "gameName": "Far Cry 2",
+      "image": "assets/farcry.png",
+      "tags": ["Puzzle", "ps4"],
+      "type": "ps5"
+    },
+    {
+      "gameName": "Prince of persia",
+      "image": "assets/pop.png",
+      "tags": ["Puzzle", "ps4", "xBox"],
+      "type": "ps4"
+    },
+    {
+      "gameName": "Dead Island",
+      "image": "assets/dead.png",
+      "tags": ["Puzzle", "ps4", "xBox"],
+      "type": "ps4"
+    },
+   
+    {
+      "gameName": "Saint Row",
+      "image": "assets/row.png",
+      "tags": ["Puzzle", "xBox"],
+      "type": "ps5"
+    },
+    {
+      "gameName": "Saint Row",
+      "image": "assets/row.png",
+      "tags": ["Puzzle", "xBox"],
+      "type": "ps4"
+    }
+  ]
+  
