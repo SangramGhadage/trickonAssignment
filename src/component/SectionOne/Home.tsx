@@ -14,27 +14,27 @@ export const Home = () => {
         slidesToScroll: 3
     };
     const fetchData = async () => {
-        // const options = {
-        //     method: 'GET',
-        //     url: 'https://free-to-play-games-database.p.rapidapi.com/api/filter',
-        //     params: {
-        //         tag: '3d.mmorpg.fantasy.pvp',
-        //         platform: 'pc'
-        //     },
-        //     headers: {
-        //         'X-RapidAPI-Key': '091ca4667cmsh2b6c1aa56138301p161c82jsn704b776789d2',
-        //         'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com'
-        //     }
-        // };
+        const options = {
+            method: 'GET',
+            url: 'https://free-to-play-games-database.p.rapidapi.com/api/filter',
+            params: {
+                tag: '3d.mmorpg.fantasy.pvp',
+                platform: 'pc'
+            },
+            headers: {
+                'X-RapidAPI-Key': '091ca4667cmsh2b6c1aa56138301p161c82jsn704b776789d2',
+                'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com'
+            }
+        };
 
-        // try {
-        //     const response = await axios.request(options);
+        try {
+            const response = await axios.request(options);
 
-        //     console.log(response.data);
-        //     setGame(response.data)
-        // } catch (error) {
-        //     console.error(error);
-        // }
+            console.log(response.data);
+            setGame(response.data)
+        } catch (error) {
+            console.error(error);
+        }
     }
     useEffect(() => {
         fetchData()
